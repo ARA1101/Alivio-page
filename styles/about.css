@@ -1,0 +1,73 @@
+.about{
+    padding: 160px 0 60px 0;
+    background-color: var(--co-white);
+}
+
+.about__content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about__title {
+    color: var(--co-light-green);
+    font-size: 50px;
+    font-weight: 700;
+    max-width: 505px;
+    position: relative;
+}
+.about__title:before{
+    position: absolute;
+    content:"How it works";
+    color: var(--co-black-42);
+    font-size: 24px;
+    font-weight: 600;
+    top: -30px;
+    left: 0;
+}
+
+.about__desc {
+    color: var(--co-black-42);
+    font-size: 20px;
+    font-weight: 500;
+    max-width: 670px;
+}
+
+.about__cards{
+    margin: 85px 0 0 0 ;
+    display: flex;
+    justify-content: space-between;
+}
+.about__cards .card:nth-child(2){
+    margin: 240px 0 0 0 ;
+}
+
+@media(max-width: 1230px){
+    .about__content {
+       flex-direction: column;
+       align-items: center;
+       justify-content: start;
+       gap: 20px;
+    }
+    .about__cards{
+        flex-direction: column;
+        align-items: center;
+        justify-content: start;
+    }
+    .about__cards .card:nth-child(2){
+        margin: 0 ;
+    }
+}
+
+@media(max-width: 576px){
+    .about__title {
+        font-size: 35px;
+      
+    }
+    .about__content {
+        padding:0 15px;
+    }
+    .about__desc {
+        font-size: 18px;
+        
+    }
+}
