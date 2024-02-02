@@ -59,8 +59,7 @@
 @media(max-width: 420px){
     .card {
         
-        height: 700px;
-        
+        height: 750px;
     }
     .card__title {
         font-size: 27px;
