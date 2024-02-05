@@ -1,0 +1,32 @@
+.pricing{
+    color: var(--co-white);
+    background-color:var(--co-dark-green);
+    padding: 95px 0 195px 20px;
+}
+.pricing__title{
+    font-size: 40px;
+    font-weight: 900;
+    margin-bottom: 65px;
+
+}
+
+.pricing__nav-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    row-gap: 60px;
+}
+
+.pricing__nav-item {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.pricing__nav-link {
+    color: var(--co-white);
+}
+.pricing__nav-link:hover{
+    color: var(--co-light-green);
+    transition: 0.3s ease;
+}
