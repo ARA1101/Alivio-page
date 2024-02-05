@@ -1,0 +1,85 @@
+.product__card {
+    width: 300px;
+    height: 290px;
+    position: absolute;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    background-color: var(--co-white);
+    top: 520px;
+    left: 0px;
+    color: var(--co-black);
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    padding: 22px 0 30px 0;
+
+}
+
+.product__card__title {
+    font-size: 15px;
+    font-weight: 600;
+    position: relative;
+    padding-bottom: 30px;
+}
+.product__card__title::after{
+    content: "";
+    position: absolute;
+    height: 1px;
+    right: 0;
+    left: 0;
+    top: 25px;
+    background-color: var(--co-black);
+}
+
+
+.product__card__preview {
+    width: 75px;
+    height: 75px;
+    overflow: hidden;
+    border-radius: 50%;
+    flex-shrink: 0;
+    
+}
+
+.product__card__preview-img {
+    background-color: var(--co-bg-green);
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    object-position: -12px -20px;
+    
+}
+
+.product__card__name {
+    
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.person__card__desc {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+
+
+.person__card__custom-content {
+    padding: 20px 0 0 0;
+    font-size: 16px;
+    font-weight: 700;
+
+}
+
+.person__card__list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.person__card__list-item {
+    font-size: 10px;
+    font-weight: 400;
+}
