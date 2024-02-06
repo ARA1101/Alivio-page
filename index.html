@@ -42,6 +42,40 @@
             </div>
         </div>
     </header>
+
+    <div class="mobile-navigation" aria-label="mobile navigation">
+        <label for="mobile-toggler-id" aria-label="open-close mobile navigation menu">
+            <svg class="mobile-navigation-burger" aria-label="mobile navigation icon">
+                <use href="assets/sprite.svg#burger-icon"></use>
+            </svg>
+        </label>
+
+        <input type="checkbox" name="toggler" class="mobile-navigation-toggler" id="mobile-toggler-id" >
+        <nav class="mobile__navigation-menu" aria-label="mobile navigation">
+            <ul class="mobile__navigation-list">
+                <li class="mobile__navigation-item" aria-label="mobile navigation item">
+                    <a href="#about-id" class="mobile__navigation-link" aria-label="link why alivio">Why Alivio</a>
+                </li>
+                <li class="mobile__navigation-item" aria-label="mobile navigation item">
+                    <a href="#success-id" class="mobile__navigation-link" aria-label="link solutions">Solutions</a>
+                </li>
+                <li class="mobile__navigation-item" aria-label="mobile navigation item">
+                    <a href="#product-id" class="mobile__navigation-link" aria-label="link community">Community</a>
+                </li>
+                <li class="mobile__navigation-item" aria-label="mobile navigation item">
+                    <a href="#pricing-id" class="mobile__navigation-link" aria-label="link pricing">Pricing</a>
+                </li>
+            </ul>
+            <label for="mobile-toggler-id" class="mobile-navigation-close"  aria-label="mobile close navigation menu">
+                <svg class="mobile-navigation-cross" aria-label="mobile navigation icon">
+                    <use href="assets/sprite.svg#cross-icon"></use>
+                </svg>
+            </label>
+        </nav>
+
+        
+    </div>
+
     <main>
         <section class="hero" id="hero-id">
             <div class="container">

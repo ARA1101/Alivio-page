@@ -29,6 +29,7 @@ h1, h2, h3, h4, h5, h6, p, figure, blockquote{
 }
 .container{
     max-width: 1400px;
+    min-width: 320px;
     padding: 0 10px;
     margin: 0 auto;
 }
